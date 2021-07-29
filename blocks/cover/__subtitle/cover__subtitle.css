@@ -11,6 +11,5 @@
 @media screen and (max-width: 768px) {
     .cover_subtitle {
         width: calc(100vw - (16px * 2));
-        background: blue;
     }
 }
