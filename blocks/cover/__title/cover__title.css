@@ -5,14 +5,14 @@
     text-align: center;
     color: #fff;
     margin: 0 0 32px 0;
-    width: 560px;
+    max-width: 560px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
         margin: 0 0 16px 0;
-        width: calc(100vw - (16px * 2));
+        max-width: calc(100% - (16px * 2));
     }
 }

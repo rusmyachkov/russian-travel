@@ -2,7 +2,6 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествия по России</title>
     <link rel="stylesheet" href="./pages/index.css">
@@ -11,10 +10,10 @@
     <div class="page">
         <header class="header">
             <img class="header__logo" src="./images/sprint-3-images/header-logo.svg" alt="Логотип"/>
-            <div class="header__lang-links">
-                <a class="header__lang-link header__lang-link_active" lang="ru" href="#">Ru</a>
-                <a class="header__lang-link" lang="en" href="#">En</a>
-            </div>
+            <nav class="header__lang-links">
+                <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+                <a class="header__lang-link" href="#">En</a>
+            </nav>
         </header>
 
         <section class="lead">
@@ -116,25 +115,25 @@
             </div>
         </section>
 
-        <div class="cover">
+        <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
             <div class="cover__background">
                 <div class="cover__overlay">
                     <h3 class="cover__title">До Байкала «на собаках»</h3>
                     <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
                 </div>
             </div>
-        </div>
+        </a>
 
         <section class="footer">
-            <div class="footer__links">
+            <nav class="footer__links">
                 <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
                 <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-                <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a> 
+                <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
                 <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
                 <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
-            </div>
+            </nav>
             <p class="footer__copyright">© 2020. Руслан</p>
         </section>
-    </div> 
+    </div>
 </body>
 </html>

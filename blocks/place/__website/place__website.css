@@ -1,17 +1,5 @@
  .place__website {
      grid-area: website;
      align-self: flex-end;
-     width: 456px;
+     width: 100%;
  }
-
- @media screen and (max-width: 1024px) {
-    .place__website {
-        width: 352px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .place__website {
-        width: 100%;
-    }
-}

@@ -1,43 +1,19 @@
 .lead {
-    max-width: 984px;
+    max-width: calc(1280px - (148px * 2));
     margin: 0 auto 92px auto;
-    padding: 0 148px;
 }
 
-@media screen and (max-width: 1280px) {
-    .lead {
-        min-width: 928px;
-        margin: 0 auto 92px auto;
-        padding: 0 48px;
-    }
-}
 
 @media screen and (max-width: 1024px) {
     .lead {
-        min-width: 768px;
+        max-width: calc(1024px - (48px * 2));
         margin: 0 auto 92px auto;
     }
 }
-
-@media screen and (max-width: 960px) {
-    .lead {
-        min-width: 100%;
-        margin: 0 auto 92px auto;
-        padding: 0;
-    }
-}
-
 
 @media screen and (max-width: 768px) {
-    .lead {
-        width: 100%;
-        margin: 0 0 88px 0;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead {
-        width: 100%;
-        margin: 0 0 64px 0;
-    }
+  .lead {
+      max-width: 100%;
+      margin: 0 auto 88px auto;
+  }
 }

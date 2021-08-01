@@ -4,18 +4,11 @@
     flex-direction: column;
     gap: 26px;
     align-self: flex-start;
-    width: 484px;
+    width: 100%;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
     .place__paragraphs {
-        width: 456px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .place__paragraphs {
-        width: 100%;
         gap: 25px;
     }
 }

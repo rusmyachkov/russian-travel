@@ -9,26 +9,28 @@
 }
 
 .cover__overlay:hover {
-    background: rgba(42, 44, 47, 0.8); 
+    background: rgba(42, 44, 47, 0.8);
 }
 
-@media screen and (max-width: 1280px) {
-    .cover__overlay {
-        padding: 195px 232px 195px;
-        max-height: 640px;
-    }
-}
 
 @media screen and (max-width: 1024px) {
-    .cover__overlay {
-        padding: 104px 115px 104px;
-        max-height: 480px;
-    }
+  .cover__overlay {
+    max-height: 640px;
+    padding: 195px 232px 195px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .cover__overlay {
-        padding: 16px 33px 16px;
-        max-height: 200px;
-    }
+  .cover__overlay {
+    max-height: 480px;
+    padding: 115px 104px 115px;
+  }
 }
+
+@media screen and (max-width: 640px) {
+  .cover__overlay {
+    max-height: 320px;
+    padding: 33px 16px 33px;
+  }
+}
+
