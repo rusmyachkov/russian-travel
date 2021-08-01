@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    max-width: calc(1280px - (48px * 2));
+    max-width: calc(100% - (48px * 2));
     margin: 0 auto;
     gap: 16px;
     box-sizing: border-box;
