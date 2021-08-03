@@ -1,12 +1,12 @@
 .place {
-    display: grid;
-    grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
-    grid-template-rows: min-content min-content;
-    grid-template-areas:
-    "title website"
-    "image paragraphs";
-    gap: 48px 40px;
-    box-sizing: border-box;
+  display: grid;
+  grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
+  grid-template-rows: min-content min-content;
+  grid-template-areas:
+  "title website"
+  "image paragraphs";
+  gap: 48px 40px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,14 +24,13 @@
 }
 
 @media screen and (max-width: 720px) {
-    .place {
-        grid-template-columns: 100%;
-        grid-template-areas:
-        "title"
-        "website"
-        "image"
-        "paragraphs";
-        gap: 32px 0;
-
-    }
+  .place {
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "paragraphs";
+    gap: 32px 0;
+  }
 }

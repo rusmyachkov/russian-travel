@@ -1,15 +1,15 @@
 .cover__subtitle {
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #fff;
-    margin: 0;
-    max-width: 360px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  max-width: 360px;
 }
 
 @media screen and (max-width: 640px) {
-    .cover__subtitle {
-        max-width: calc(100% - (16px * 2));
-    }
+  .cover__subtitle {
+    max-width: calc(100% - (16px * 2));
+  }
 }

@@ -1,15 +1,15 @@
 .cover__overlay {
-    background: rgba(42, 44, 47, 0.3);
-    padding: 245px 312px 245px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-height: 740px;
+  background: rgba(42, 44, 47, 0.3);
+  padding: 245px 312px 245px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 740px;
 }
 
 .cover__overlay:hover {
-    background: rgba(42, 44, 47, 0.8);
+  background: rgba(42, 44, 47, 0.8);
 }
 
 
