@@ -4,4 +4,15 @@
   line-height: 18px;
   color: #fff;
   margin: 0;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  max-width: 690px;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__list {
+    max-width: 100%;
+  }
+}
+

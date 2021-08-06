@@ -1,9 +1,9 @@
-.intro__list_number {
+.intro__span-accent {
   font-weight: 400;
 }
 
 @media screen and (max-width: 768px) {
-  .intro__list_number {
+  .intro__span-accent {
     margin: 0;
   }
 }

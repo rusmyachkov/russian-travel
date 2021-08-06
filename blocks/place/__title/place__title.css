@@ -5,7 +5,7 @@
   line-height: 76px;
   color: #fff;
   margin: 0;
-  width: 100%;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 890px) {
@@ -17,8 +17,10 @@
 
 @media screen and (max-width: 720px) {
   .place__title {
+    max-width: calc(100% - (16px * 2));
     font-size: 32px;
     line-height: 35px;
+    margin-left: 16px;
   }
 }
 
