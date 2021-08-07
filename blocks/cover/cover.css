@@ -1,5 +1,5 @@
 .cover {
-  background: center center no-repeat url(../../../images/sprint-3-images/cover-trains.jpg);
+  background: center center no-repeat url(../../images/sprint-3-images/cover-trains.jpg);
   background-position: center;
   background-size: cover;
   max-width: calc(1280px - (48px * 2));
